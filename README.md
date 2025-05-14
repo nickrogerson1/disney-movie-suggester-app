@@ -11,7 +11,7 @@ This app was built with React 19, Next.js 15 and Typescript for additional error
 
 ### Key Features
 -	Slick and gorgeous Netflix/Disney design with dazzling revolving, scrollable carousels on the homepage.
--	Movie data pulled in via TMBD.
+-	Movie data pulled in via TMBD asynchronously with the fetch API.
 -	One-click switch between dark and light themes with next-themes plugin.
 -	Caches API requests for 24 hours with Nextjs to keep everything quick and snappy which reduces server requests to API .
 -	Uses two AI API endpoints with **Microsoft Azure**:
