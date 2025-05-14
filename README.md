@@ -2,9 +2,9 @@
 
 ### About This Project (Intro)
 This app has three principal parts:
-•	A homepage which displays current movies in a large banner, followed by upcoming, top rated and popular movies in a sexy moving carousel.
-•	Users can search by genre and then will be given a list of movies associated with that genre along with an AI suggestion of further movies to look for in that genre.
-•	A search feature whereby users can search by name and then will be shown a list of movies associated with that search along with an AI suggestion of other movies to look for.
+-	A homepage which displays current movies in a large banner, followed by upcoming, top rated and popular movies in a sexy moving carousel.
+-	Users can search by genre and then will be given a list of movies associated with that genre along with an AI suggestion of further movies to look for in that genre.
+-	A search feature whereby users can search by name and then will be shown a list of movies associated with that search along with an AI suggestion of other movies to look for.
 
 ### What it was built with
 This app was built with React, Next.js and Typescript for additional error checking. Tailwind CSS was also used for a better developer experience and to reduce the amount of CSS served at production. Shadcn was used for creating generic components.
