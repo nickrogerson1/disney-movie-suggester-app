@@ -16,7 +16,7 @@ This app was built with React 19, Next.js 15 and Typescript for additional error
 -	Uses two AI API endpoints with **Microsoft Azure**:
     1. a subscription which then makes a direct OpenAI request (search)
  	  2. an Azure OpenAI direct endpoint which is better suited to scaling up (genre).
--	Experimental PPR to render slow (API calling for genre and search) components in the background for the genre and search sections and then stream them in when ready.
+-	**Experimental PPR** to render slow (API calling for genre and search) components in the background for the genre and search sections and then stream them in when ready.
 
 ### Unresolved Issues
 Had to remove the zoom feature on the homepage carousels due to flickering / layout shifting.
