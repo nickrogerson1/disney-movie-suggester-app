@@ -7,21 +7,21 @@ This app has three principal parts:
 -	A search feature whereby users can search by name and then will be shown a list of movies associated with that search along with an AI suggestion of other movies to look for.
 
 ### What it was built with
-This app was built with React, Next.js and Typescript for additional error checking. Tailwind CSS was also used for a better developer experience and to reduce the amount of CSS served at production. Shadcn was used for creating generic components.
-Embla Carousel was used to plug in the homepage carousels.
+This app was built with React 19, Next.js 15 and Typescript for additional error checking. Tailwind CSS was used for a better developer experience and to reduce the amount of CSS served at production. ShadCN was used for creating generic components and Embla Carousel was used to plug in the homepage carousels.
 
 ### Key Features
-•	Slick and gorgeous Netflix/Disney design with dazzling revolving, scrollable carousels on the homepage.
-•	One-click switch between dark and light themes with next-themes plugin.
-•	Caches API requests for 24 hours with Nextjs to keep everything quick and snappy which reduces server requests to API .
-•	Uses two AI API endpoints with Microsoft Azure:  1) a subscription which then makes a direct OpenAI request (search) 2) an Azure OpenAI direct endpoint which is better suited to scaling up (genre).
-•	Experimental PPR to render slow (API calling for genre and search) components in the background for the genre and search sections and then stream them in when ready.
+-	Slick and gorgeous Netflix/Disney design with dazzling revolving, scrollable carousels on the homepage.
+-	One-click switch between dark and light themes with next-themes plugin.
+-	Caches API requests for 24 hours with Nextjs to keep everything quick and snappy which reduces server requests to API .
+-	Uses two AI API endpoints with Microsoft Azure:  1) a subscription which then makes a direct OpenAI request (search) 2) an Azure OpenAI direct endpoint which is better suited to scaling up (genre).
+-	Experimental PPR to render slow (API calling for genre and search) components in the background for the genre and search sections and then stream them in when ready.
 
 ### Unresolved Issues
 Had to remove the zoom feature on the homepage carousels due to flickering / layout shifting.
-Future Improvements
-•	Add a rotten tomatoes icon to state whether the movie is fresh.
-•	Make movies clickable so the user can retrieve further information about them and where to watch them.
+
+### Future Improvements
+-	Add a rotten tomatoes icon to state whether the movie is fresh.
+-	Make movies clickable so the user can retrieve further information about them and where to watch them.
 
 ## Getting Started
 
