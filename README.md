@@ -1,33 +1,27 @@
 <h1 align="center">AI-powered Disney-style Movie Suggester App</h1>
 
-## About This Project (Intro)
+### About This Project (Intro)
 This app has three principal parts:
 •	A homepage which displays current movies in a large banner, followed by upcoming, top rated and popular movies in a sexy moving carousel.
 •	Users can search by genre and then will be given a list of movies associated with that genre along with an AI suggestion of further movies to look for in that genre.
 •	A search feature whereby users can search by name and then will be shown a list of movies associated with that search along with an AI suggestion of other movies to look for.
 
-## What it was built with
+### What it was built with
 This app was built with React, Next.js and Typescript for additional error checking. Tailwind CSS was also used for a better developer experience and to reduce the amount of CSS served at production. Shadcn was used for creating generic components.
 Embla Carousel was used to plug in the homepage carousels.
 
-## Key Features
+### Key Features
 •	Slick and gorgeous Netflix/Disney design with dazzling revolving, scrollable carousels on the homepage.
 •	One-click switch between dark and light themes with next-themes plugin.
 •	Caches API requests for 24 hours with Nextjs to keep everything quick and snappy which reduces server requests to API .
 •	Uses two AI API endpoints with Microsoft Azure:  1) a subscription which then makes a direct OpenAI request (search) 2) an Azure OpenAI direct endpoint which is better suited to scaling up (genre).
 •	Experimental PPR to render slow (API calling for genre and search) components in the background for the genre and search sections and then stream them in when ready.
 
-## Unresolved Issues
+### Unresolved Issues
 Had to remove the zoom feature on the homepage carousels due to flickering / layout shifting.
 Future Improvements
 •	Add a rotten tomatoes icon to state whether the movie is fresh.
 •	Make movies clickable so the user can retrieve further information about them and where to watch them.
-
-Getting started (how to use it)
-
-
-
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
