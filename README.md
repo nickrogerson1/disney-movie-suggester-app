@@ -1,6 +1,6 @@
 <h1 align="center">AI-powered Disney-style Movie Suggester App</h1>
 
-### About This Project (Intro)
+### About This Project
 This app has three principal parts:
 -	A homepage which displays current movies in a large banner, followed by upcoming, top rated and popular movies in a sexy moving carousel.
 -	Users can search by genre and then will be given a list of movies associated with that genre along with an AI suggestion of further movies to look for in that genre.
@@ -39,8 +39,8 @@ Follow these steps to get the project up and running locally:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-nextjs-repo.git
-    cd your-nextjs-repo
+    git clone https://github.com/nickrogerson1/disney-movie-suggester-app.git
+    cd disney-movie-suggester-app
     ```
 
 2. **Install dependencies:**
