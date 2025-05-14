@@ -13,7 +13,7 @@ This app was built with React 19, Next.js 15 and Typescript for additional error
 -	Slick and gorgeous Netflix/Disney design with dazzling revolving, scrollable carousels on the homepage.
 -	One-click switch between dark and light themes with next-themes plugin.
 -	Caches API requests for 24 hours with Nextjs to keep everything quick and snappy which reduces server requests to API .
--	Uses two AI API endpoints with Microsoft Azure:
+-	Uses two AI API endpoints with **Microsoft Azure**:
     1. a subscription which then makes a direct OpenAI request (search)
  	  2. an Azure OpenAI direct endpoint which is better suited to scaling up (genre).
 -	Experimental PPR to render slow (API calling for genre and search) components in the background for the genre and search sections and then stream them in when ready.
